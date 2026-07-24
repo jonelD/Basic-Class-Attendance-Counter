@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100%;
+}
+
+.background {
+    display: flex;
+    height: 100vh;
+    color: yellow;
+    background-color: rgba(243, 231, 212, 0.836);
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5F7;
+    background-color: #E5E5F7;
+    opacity: 0.8;
+    background-size: 20px 20px;
+    background-image: repeating-linear-gradient(0deg, #444CF7, #444CF7 1px, #f4f7e5 1px, #E5E5F7);
+
+}
+
+.container {
+    height: 50vh;
+    color: #fff;
+    background-color: rgb(31 90 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.25rem 1.25rem 5rem;
+    border-radius: 1rem;
+    border: 1px solid #000000;
+    line-height: 1.5;
+    box-shadow: 0 0.9rem 1rem rgba(0, 0, 0, 0.7);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #d61a1a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+        box-shadow: 0 0.7rem 1.7rem rgba(0, 0, 0, 0.4);
+}
+
+.btn-add {
+    background-color: #1a7a1a;
+}
+
+.btn-remove {
+    background-color: #e61717;
+}
+
+.btn-reset {
+    background-color: #5e27f5;
+}
+
+.btn-add:hover {
+    background-color: #2a9a2a;
+    transition: background-color 0.5s ease;
+}
+
+.btn-remove:hover {
+    background-color: #f34545;
+    transition: background-color 0.5s ease;
+}
+
+.btn-reset:hover {
+    background-color: #6e37f5;
+    transition: background-color 0.5s ease;
+}
+
+.btn-add:active {
+    background-color: #1e5c1e;
+}
+
+.btn-remove:active {
+    background-color: #b50f0f;
+}
+
+.btn-reset:active {
+    background-color: #4b1fcf;
+}
